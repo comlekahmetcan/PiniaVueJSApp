@@ -10,13 +10,14 @@
 
     <div class="task-list">
       <div v-for="task in taskStore.tasks">
-        <p>{{ task.title }}</p>
+        <TaskDetails :task="task" />
       </div>
     </div>
   </main>
 </template>
 
 <script setup>
+import TaskDetails from "./components/TaskDetails.vue";
 import { useTaskStore } from "./stores/TaskStore";
 const taskStore = useTaskStore();
 </script>
