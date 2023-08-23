@@ -24,6 +24,7 @@ const props = defineProps({
       </span>
       <span
         class="material-symbols-outlined icon"
+        :class="{ active: task.isFav }"
         @click="taskStore.toogleFav(task.id)"
       >
         favorite
