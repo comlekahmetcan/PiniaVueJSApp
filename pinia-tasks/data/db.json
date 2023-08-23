@@ -6,19 +6,14 @@
       "isFav": true
     },
     {
-      "id": 2,
-      "title": "mow the lawn",
-      "isFav": false
-    },
-    {
       "id": 3,
       "title": "become an eldern lord",
-      "isFav": true
+      "isFav": false
     },
     {
       "id": 4,
       "title": "eat some pinapples",
-      "isFav": false
+      "isFav": true
     }
   ]
 }
